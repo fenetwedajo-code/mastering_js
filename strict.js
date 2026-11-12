@@ -188,3 +188,8 @@ if (fenet.bmi > roba.bmi) {
 } else {
   console.log(`${roba.fullName} 's(${roba.bmi})BMI is greater than ${fenet.fullName} 's (${fenet.bmi})`);
 }
+
+// itration for loop
+for (let i = 1; i <= 10; i++){
+  console.log(`lifting weights repetiton ${i}`)
+}
