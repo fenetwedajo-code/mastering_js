@@ -213,7 +213,7 @@ for (let i = 0; i < jonasArray.length; i++){
  // types[i] = typeof jonasArray[i];
   //console.log(types[i]);
 
-  types.push(typeof jonasArray[i]);
+  types.unshift(typeof jonasArray[i]);
 }
 
 console.log(types);
