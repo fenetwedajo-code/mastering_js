@@ -225,3 +225,28 @@ for (let i = 0; i < years.length; i++){
 }
 
 console.log(ages);
+
+//continue and break
+const types = [];
+const jonasArray = [
+  'fenet',
+  'wedajo',
+  2037 - 1991,
+  'teacher',
+  ['michael', 'peter', 'steven']
+];
+console.log('---only strings---');
+for (let i = 0; i < jonasArray.length; i++) {
+if (typeof jonasArray[i] !== 'string') continue;
+
+  console.log(jonasArray[i], typeof jonasArray[i]);
+  
+}
+console.log('---break with number---');
+
+for (let i = 0; i < jonasArray.length; i++) {
+if (typeof jonasArray[i] !== 'string') break;
+
+  console.log(jonasArray[i], typeof jonasArray[i]);
+  
+}
