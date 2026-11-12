@@ -156,7 +156,7 @@ const fenet = {
 
 // challenge
 // "jonas is a 46-year old teacher ,and he has a driver license"
-*/
+
 
 const fenet = {
   fullName: 'Fenet Wedajo',
@@ -193,3 +193,28 @@ if (fenet.bmi > roba.bmi) {
 for (let i = 1; i <= 10; i++){
   console.log(`lifting weights repetiton ${i}`)
 }
+
+*/
+
+//looping through arrays
+
+const types = [];
+const jonasArray = [
+  'fenet',
+  'wedajo',
+  2037 - 1991,
+  'teacher',
+  ['michael', 'peter', 'steven']
+];
+
+for (let i = 0; i < jonasArray.length; i++){
+  console.log(jonasArray[i],);
+  
+ // types[i] = typeof jonasArray[i];
+  //console.log(types[i]);
+
+  types.push(typeof jonasArray[i]);
+}
+
+console.log(types);
+
