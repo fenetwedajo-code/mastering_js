@@ -245,7 +245,7 @@ if (typeof jonasArray[i] !== 'string') continue;
 console.log('---break with number---');
 
 for (let i = 0; i < jonasArray.length; i++) {
-if (typeof jonasArray[i] !== 'string') break;
+if (typeof jonasArray[i] === 'number') break;
 
   console.log(jonasArray[i], typeof jonasArray[i]);
   
